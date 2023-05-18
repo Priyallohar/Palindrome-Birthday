@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5cdb95;
+    font-family: 'Oswald', sans-serif;
+}
+
+.heading{
+    padding: 20px;
+    color: #5cdb95;
+    background-color:  #05386b;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.instruction{
+    margin: 20px;
+    width: 70%;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    color:  #05386b;;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #05386b;*/
+    margin:0px auto;
+    
+    width: 100%;
+    height: auto;
+    
+  }
+  .input-heading{
+    margin: 20px;
+  }
+
+  input{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  input:hover{
+    box-shadow: 2px 2px 3px 3px grey; 
+  }
+
+  .check-btn{
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #05386b;
+    border: 2px solid #05386b;
+    font-weight: 600;
+    font-size: medium;
+    font-family: 'Oswald', sans-serif;
+    color: #5cdb95;
+  }
+  .check-btn:hover{
+    box-shadow: 2px 2px 3px 3px grey; 
+  }
+
+  .error-message{
+    margin: 10px auto 0px;
+    color: red;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .result-message{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #3c2dbd;
+  }
+
+  
+.social-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+.social-links button {
+    margin: 5px 40px;
+    padding: 0px 10px;
+    position: relative;
+    width: 150px;
+    height: 30px;
+   background-color: #05386b;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    margin-top: 10px;
+    
+}
+.social-links button a {
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color:#5cdb95 ;
+    font-weight: 600;
+
+}
+.social-link:hover {
+    box-shadow: 2px 2px 3px 3px grey; 
+}
